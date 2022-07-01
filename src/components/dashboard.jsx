@@ -8,11 +8,11 @@ function Dashboard() {
         <>
             <div className='main'>
                 <Header />
-                <div className='left-right-container'>
+                <div className='main_container'>
                     <div className='left-side-bar   '>
                         <LeftSideBar />
                     </div>
-                    <div className='right-side-bar bg-blue-100 '>
+                    <div className='content_section'>
                         <RightSideBar />
                     </div>
                 </div>
