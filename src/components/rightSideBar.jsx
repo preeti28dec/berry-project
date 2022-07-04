@@ -13,13 +13,13 @@ function RightSideBar() {
     <div className='right_section rounded-xl'>
       <div className='box_one rounded-xl'>
         <div className='mx-4 my-3'>
-          <div className='flex justify-between'>
+          <div className='flex justify-between my-4'>
             <div className=""><MdOutlineAccountBalanceWallet className='icon bg-violet-700 rounded-lg' /></div>
             <div className=""> <BiDotsHorizontalRounded className='icon_dots ' /> </div>
           </div>
-          <div className='flex my-4'>
-            <div class="text-4xl font-bold text-white">$500.00 </div>
-            <div><BsArrowUpRightCircle className='icon ml-2' /></div>
+          <div className='flex'>
+            <div class="text-4xl font-bold text-white ">$500.00 </div>
+            <div><BsArrowUpRightCircle className='icon ml-2 ' /></div>
           </div>
           <div className=''>Total Earning</div>
         </div>
@@ -29,12 +29,12 @@ function RightSideBar() {
         <BoxTwo />
       </div>
 
-      <div className='box_three bg-blue-500 rounded-xl'>
+      <div className='box_three  rounded-xl'>
         <div className='flex m-4 '>
           <div className=""><BsShopWindow className='icon bg-blue-700 rounded-lg' /></div>
-          <div className="mx-5">
+          <div className="mx-5 ">
             <div class="font-bold text-white">$203k </div>
-            <div className='text-white '>Total Income</div>
+            <div className='text-white'>Total Income</div>
           </div>
         </div>
       </div>

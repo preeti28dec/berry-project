@@ -6,9 +6,9 @@ import { BsSliders, BsSearch } from 'react-icons/bs'
 import { AiOutlineSetting } from 'react-icons/ai'
 function Header() {
     return (
-        <div className='top_header mx-4 '>
+        <div className='top_header mx-4 my-4'>
             <div className='first_section '>
-                <div className="flex justify-between ">
+                <div className="flex justify-between logo_section">
                     <div className='flex '>
                         <FaRaspberryPi className="icon_logo" />
                         <span class=" self-center text-xl font-bold whitespace-nowrap ">BERRY</span>
